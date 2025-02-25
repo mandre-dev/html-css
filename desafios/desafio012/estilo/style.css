@@ -28,13 +28,45 @@ header > p {
 
 }
 
-a {
+header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
-a:hover {
-    text-decoration: underline;
+header a:hover footer a:hover {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.image > p { /* verificar pq nao está aparecendo */
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
 
 }
