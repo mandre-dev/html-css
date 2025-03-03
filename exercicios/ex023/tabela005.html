@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Tabelas</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th , td {
+            border: 1px solid;
+            padding: 8px;
+        }
+
+        .destaque {
+            background-color: greenyellow;
+        }
+
+        .cnome {
+            background-color: greenyellow;
+        }
+
+        /*col.csexo {
+            background-color: yellow;
+        }*/
+
+        col.cgroup {
+            background-color: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+
+            <!--<col class="csexo">
+            <col class="cid">-->
+
+            <col class="cgroup" span="2"> <!-- Representa a (csexo) e (cid) juntas-->
+
+            <col class="cjob">
+        </colgroup>
+
+        <caption>
+            Cadastro
+        </caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Job</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>T.I</td>
+        </tr>
+        <tr>
+            <td>Mnadré</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Dev Sênior</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Economia</td>
+        </tr>
+        <tr>
+            <td>Maria Luiza</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Nutricionista</td>
+        </tr>
+
+
+
+
+
+    </table>
+    
+</body>
+</html>
