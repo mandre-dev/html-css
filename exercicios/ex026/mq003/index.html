@@ -8,38 +8,58 @@
     <style>
 
         /* declarações gerais */
+
+    * {
+
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    html, body {
+
+        width: 100vw;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightblue;
+        background-size: cover; /* ou cover */
+        background-repeat: no-repeat;
         
-@charset "UTF-8";
+    }
 
-* {
-
-    margin: 0px;
-    padding: 0px;
-
-}
-
-html, body {
-
-    width: 100vw;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: lightblue;
-    background-size: contain; /* ou cover */
-    background-repeat: no-repeat;
+    h1 {
     
-}
-
-h1 {
- 
-    color: black;
-    text-shadow:  3px 3px 0px #23ef;
-    padding: 10px; 
-    
-}
+        color: black;
+        text-shadow:  3px 3px 0px #23ef;
+        padding: 10px; 
+        
+    }
 
         /* declarações para retrato */
 
+        @media screen and (orientation: portrait) {
+            
+                body {
+
+            background-image: url(../imagens/cev-portrait.jpg);
+            background-position: center bottom;
+
+            }
+
+        }
+
         /* declarações para paisagem */
+
+        @media screen and (orientation: landscape) {
+
+                body {
+
+            background-image: url(../imagens/cev-landscape.jpg); /* (..) é voltar uma pasta */
+            background-position: left bottom;
+
+            }
+            
+        }
         
     </style>
 
