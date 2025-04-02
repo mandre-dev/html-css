@@ -47,8 +47,10 @@ span#burguer:hover {
 }
 
 menu {
-
+        
      display: none; /* display: none --> o menu nao aparece */
+     background-color: rgb(141, 141, 141);
+
 }
 
 menu > ul {
