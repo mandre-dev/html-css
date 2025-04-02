@@ -2,4 +2,28 @@
 
 /* Config Gerais */
 
+* {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body {
+
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    background-size: contain; /* ou cover */
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
  
+    color: black;
+    text-shadow:  3px 3px 0px #23ef;
+    padding: 10px; 
+    
+}

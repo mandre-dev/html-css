@@ -2,3 +2,10 @@
 
 /* Aparelho deitado (landscape) */
 
+body {
+
+    background-image: url(../imagens/cev-landscape.jpg); /* (..) é voltar uma pasta */
+    background-position: left bottom;
+
+}
+
