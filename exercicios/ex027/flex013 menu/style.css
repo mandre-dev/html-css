@@ -23,19 +23,53 @@ header {
     background-color: aquamarine;
     color: white;
     padding: 10px;
+
+    /* aqui começa a kidding */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 header > h1 {
 
     border: 2px dotted black;
     text-shadow: 4px 4px 8px black;
+    flex: 0 0 200px;
 } 
 
 header > nav {
 
     border: 2px dotted black;
+
+    /* aqui começa a kidding */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     
 }
+
+header > nav > a {
+
+    background-color: darkgray;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+
+} 
+
+header > nav > a:hover {
+
+    background-color: gray;
+    transition: background-color 0.3s;
+}
+
 
 main {
 
