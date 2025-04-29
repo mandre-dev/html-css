@@ -35,14 +35,14 @@ header {
 
 header > h1 {
 
-    border: 2px dotted black;
+    /* border: 2px dotted black; */ 
     text-shadow: 4px 4px 8px black;
     flex: 0 0 200px;
 } 
 
 header > nav {
 
-    border: 2px dotted black;
+   /* border: 2px dotted black; */
 
     /* aqui começa a kidding */
 
